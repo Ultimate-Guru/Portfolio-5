@@ -1,0 +1,154 @@
+/* LIGHT MODE */
+
+body:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-1.png?raw=true")
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-2.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-3.png?raw=true")
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-4.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-5.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tr-2.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tr-2.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tr-3.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tr-4.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tr-5.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-1.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-2.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-3.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-4.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-5.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/br-1.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/br-2.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/br-3.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/br-4.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/br-5.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-1.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-2.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-3.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-4.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-5.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/trw-2.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/trw-2.png?raw=true")
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/trw-3.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/trw-4.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/trw-5.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-1.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-2.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-3.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-4.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-5.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/brw-1.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/brw-2.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/brw-3.png?raw=true") 
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/brw-4.png?raw=true")
+    url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/brw-5.png?raw=true");
+}
+
+:root {
+    /* Colors */
+    --bg: #fff;
+    --bg-alt: #333;
+    --bg-alt-2: #f0f0f0;
+    --bg-transparent: #ffffffe8;
+    --border: 0.01rem solid #333;
+    --text: #333;
+    --text-alt: #fff;
+
+    /* Face animations */
+    --tl-1: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tl-1.png?raw=true");
+    --tl-2: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tl-2.png?raw=true");
+    --tl-3: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tl-3.png?raw=true");
+    --tl-4: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tl-4.png?raw=true");
+    --tl-5: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tl-5.png?raw=true");
+
+    --tr-1: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tr-2.png?raw=true");
+    --tr-2: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tr-2.png?raw=true");
+    --tr-3: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tr-3.png?raw=true");
+    --tr-4: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tr-4.png?raw=true");
+    --tr-5: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/tr-5.png?raw=true");
+
+    --bl-1: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-1.png?raw=true");
+    --bl-2: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-2.png?raw=true");
+    --bl-3: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-3.png?raw=true");
+    --bl-4: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-4.png?raw=true");
+    --bl-5: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/bl-4.png?raw=true");
+
+    --br-1: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/br-1.png?raw=true");
+    --br-2: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/br-2.png?raw=true");
+    --br-3: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/br-3.png?raw=true");
+    --br-4: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/br-4.png?raw=true");
+    --br-5: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-light/br-5.png?raw=true");
+
+    --sun: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/icons/sun.png?raw=true");
+}
+
+/* DARK MODE */
+
+:root.dark-mode {
+    --bg: #202124;
+    --bg-alt: #3c3d40;
+    --bg-alt-2: #333;
+    --bg-transparent: #333333f5;
+    --border: 0.01rem solid #5a5a5a;
+    --text: #fff;
+
+    --tl-1: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/tlw-1.png?raw=true");
+    --tl-2: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/tlw-2.png?raw=true");
+    --tl-3: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/tlw-3.png?raw=true");
+    --tl-4: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/tlw-4.png?raw=true");
+    --tl-5: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/tlw-5.png?raw=true");
+
+    --tr-1: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/trw-2.png?raw=true");
+    --tr-2: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/trw-2.png?raw=true");
+    --tr-3: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/trw-3.png?raw=true");
+    --tr-4: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/trw-4.png?raw=true");
+    --tr-5: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/trw-5.png?raw=true");
+
+    --bl-1: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-1.png?raw=true");  
+    --bl-2: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-2.png?raw=true");
+    --bl-3: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-3.png?raw=true");
+    --bl-4: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-4.png?raw=true");
+    --bl-5: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/blw-5.png?raw=true");
+
+    --br-1: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/brw-1.png?raw=true");
+    --br-2: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/brw-2.png?raw=true");
+    --br-3: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/brw-3.png?raw=true");
+    --br-4: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/brw-4.png?raw=true");
+    --br-5: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/face-animation-dark/brw-5.png?raw=true");
+
+    --moon: url("https://github.com/WebAddicted9/Animated-Portfolio-/blob/main/Day-92-Amazing-Portfolio-Website-Using-HTML-CSS-JS/assets/icons/moon.png?raw=true");
+}
+
+/* COLOR MODE TOGGLE BUTTON */
+
+#color-mode {
+    background: var(--bg-alt-2);
+    height: 2.75rem;
+    width: 4rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#toggle-button {
+    background-image: var(--sun);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.dark-mode #toggle-button {
+    background-image: var(--moon);
+}
+
+.dark-mode #color-mode {
+    justify-content: flex-end;
+}
