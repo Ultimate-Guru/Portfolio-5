@@ -32,8 +32,8 @@ const showData = async () => {
     const data = await getData();  // Await the async function
     if (data) {
         const dataElements = document.getElementById('strong');
-        dataElements.forEach((element, index) => {
-            element.innerHTML = data[index] || 'No data';  // Assign data to each strong element or display 'No data'
+        dataElements.forEach((_element, index) => {
+            dataElements.innerHTML = data[index] || 'No data';  // Assign data to each strong element or display 'No data'
         });
     }
 };
