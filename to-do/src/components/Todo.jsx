@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useRef, useState } from 'react';
 import todo_icon from '../assets/todo_icon.png';
 import TodoItems from './TodoItems';
@@ -15,7 +15,7 @@ const Todo = () => {
         if (inputText === '') {
             return null;
         }
-        
+
         const newTodo = {
             id: Date.now(),
             text: inputText,
@@ -24,6 +24,12 @@ const Todo = () => {
         setTodoList((prev) => [...prev, newTodo]);
         inputRef.current.value = '';
     };
+
+    const handleKeyPress = (event) => {
+        if (event.key === 'Enter') {
+            add();
+        }
+    }
 
     const deleteTodo = (id) => {
         setTodoList((prev) => prev.filter((todo) => todo.id !== id));
@@ -43,9 +49,9 @@ const Todo = () => {
         });
     };
 
-    useEffect( () => {
+    useEffect(() => {
         localStorage.setItem('todos', JSON.stringify(todoList));
-    }, [todoList] )
+    }, [todoList])
 
     return (
         <div className='bg-white place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl'>
@@ -66,6 +72,7 @@ const Todo = () => {
                 />
                 <button
                     onClick={add}
+                    onKeyDown={handleKeyPress}
                     className='border-none rounded-full bg-orange-600 w-32 h-14 text-white text-lg font-medium cursor-pointer'>
                     Add +
                 </button>
