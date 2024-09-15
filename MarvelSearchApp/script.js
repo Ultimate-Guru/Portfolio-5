@@ -3,11 +3,6 @@ let button = document.getElementById("submit-button");
 let showContainer = document.getElementById("show-container");
 let listContainer = document.querySelector(".list");
 
-let date = new Date();
-console.log(date.getTime());
-
-const [timestamp, apiKey, hashValue] = [ts, publicKey, hashValue];
-
 // Debounce function to delay API calls while typing
 function debounce(func, delay) {
     let timeout;
@@ -32,7 +27,8 @@ input.addEventListener("keyup", debounce(async () => {
         return;
     }
 
-    const url = `https://gateway.marvel.com:443/v1/public/characters?ts=${timestamp}&apikey=${apiKey}&hash=${hashValue}&nameStartsWith=${input.value}`;
+    // Use the globally defined variables (ts, publicKey, hashValue)
+    const url = `https://gateway.marvel.com:443/v1/public/characters?ts=${ts}&apikey=${publicKey}&hash=${hash}&nameStartsWith=${input.value}`;
 
     try {
         const response = await fetch(url);
@@ -60,7 +56,8 @@ button.addEventListener("click", async () => {
     }
     showContainer.innerHTML = "";
 
-    const url = `https://gateway.marvel.com:443/v1/public/characters?ts=${timestamp}&apikey=${apiKey}&hash=${hashValue}&name=${input.value}`;
+    // Use the globally defined variables (ts, publicKey, hashValue)
+    const url = `https://gateway.marvel.com:443/v1/public/characters?ts=${ts}&apikey=${publicKey}&hash=${hash}&name=${input.value}`;
 
     try {
         const response = await fetch(url);
