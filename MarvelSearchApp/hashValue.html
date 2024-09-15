@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel API App</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+
+    <!-- Include CryptoJS for MD5 hashing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+</head>
+
+<body>
+    <script>
+        const ts = new Date().getTime();
+        const publicKey = "93b7e39c5aedf05b7dd098e3512f8387";
+        const privateKey = "606672436d2a8a41be8c2fa48569f449d51df761";
+
+        // Function to generate the MD5 hash
+        function generateHash(ts, privateKey, publicKey) {
+            return CryptoJS.MD5(ts + privateKey + publicKey).toString();
+        }
+
+        // Generate the hash value
+        const hashValue = generateHash(ts, privateKey, publicKey);
+
+        alert(hashValue);
+    </script>
+</body>
+
+</html>
