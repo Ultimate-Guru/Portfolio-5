@@ -54,6 +54,14 @@ html, body {
     background: linear-gradient(120deg, rgb(82, 82, 136), rgb(197, 80, 197));
 }
 
+#load p {
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #movieResults {
     display: flex;
     flex-wrap: wrap;
